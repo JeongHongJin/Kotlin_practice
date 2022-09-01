@@ -5,7 +5,7 @@ fun main() {
 
     println(money1 == money3)
     
-    if(money1 > money2){
+    if(money1.amount > money3.amount){
         println("Money1이 Money2보다 크다")
     }
     
@@ -16,7 +16,7 @@ fun main() {
 }
 
 class JavaMoney{
-    val amount: Long
+    var amount: Long
     constructor(amount: Long){
         this.amount = amount
     }
