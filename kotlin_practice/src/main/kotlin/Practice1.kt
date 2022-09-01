@@ -5,5 +5,5 @@ fun main() {
 
     val number2 = 5L
 
-    //var person = Person("사람")
+//    var person = Person("사람")
 }

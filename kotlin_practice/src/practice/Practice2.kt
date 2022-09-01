@@ -1,5 +1,0 @@
-package practice
-
-fun main() {
-
-}
