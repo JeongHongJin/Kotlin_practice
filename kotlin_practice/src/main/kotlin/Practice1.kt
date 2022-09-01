@@ -5,5 +5,13 @@ fun main() {
 
     val number2 = 5L
 
-//    var person = Person("사람")
+    val person = Person("사람")
+}
+
+class Person {
+    var name: String ?= null
+
+    constructor(name: String){
+        this.name = name
+    }
 }
