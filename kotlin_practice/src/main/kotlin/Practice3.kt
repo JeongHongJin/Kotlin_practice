@@ -17,16 +17,6 @@ fun main() {
 
 }
 
-class Person {
-    var name: String ?= null
-    var age: Int ?= null
-
-    constructor(name: String, age: Int){
-        this.name = name
-        this.age = age
-    }
-}
-
 fun printAgeIfPerson(obj: Any){
     if(obj is Person){
         /*val person =  obj as Person
